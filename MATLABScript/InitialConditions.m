@@ -1,4 +1,4 @@
-values=[0,1,2,3,4];
+values=[-0.0002,-0.0001,0,0.0001,0.0005];
 for i=1:5
     init=values(i);
     sim('RCcircuit.slx',10);
